@@ -1,0 +1,10 @@
+.Canvas {
+    display: grid;
+    place-items: stretch;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: crosshair;
+}

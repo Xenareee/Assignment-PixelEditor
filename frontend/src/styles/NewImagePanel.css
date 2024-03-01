@@ -1,0 +1,10 @@
+.NewImagePanel {
+    width: 250px;
+    border-radius: 0 5px 5px 0;
+    padding: 20px;
+    border: 2px solid #5b5b5b;
+    width: fit-content;
+    background: #505050;
+    position: absolute;
+    left: 0;
+}

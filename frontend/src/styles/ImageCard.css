@@ -1,0 +1,46 @@
+.ImageCard {
+    border: 2px solid #5b5b5b;
+    background: #505050;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.previewContainer {
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.previewContainer:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(-10px 16px 1px #00000050);
+}
+
+.imageCardName {
+    margin: 20px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #e1e1e1;
+}
+
+.imageCardDimensions {
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #8b8b8b;
+    background: #3f3f3f;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.previewButtonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberOption > div, .textOption > div {
+    color: #e1e1e1;
+    font-weight: 600;
+}

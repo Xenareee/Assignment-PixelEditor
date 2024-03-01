@@ -1,0 +1,20 @@
+.TopBar {
+    background: var(--primary1);
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.barTitle {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.crossButton {
+    font-size: 24px;
+    width: 52px;
+    height: 52px;
+}
